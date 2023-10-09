@@ -1,6 +1,20 @@
 const data = [
     {
         city: 'lima',
+        images: [
+            {
+                group: 'humidity',
+                src: '/api/images/humidity/HLima.jpg',
+            },
+            {
+                group: 'precipitation',
+                src: '/api/images/precipitation/PLima.jpg',
+            },
+            {
+                group: 'temperature',
+                src: '/api/images/humidity/TLima.jpg',
+            }
+        ],
         climate: [
             "Coastal",
             "Arid",
@@ -37,6 +51,20 @@ const data = [
     },
     {
         city: 'cusco',
+        images: [
+            {
+                group: 'humidity',
+                src: '/api/images/humidity/HCusco.jpg',
+            },
+            {
+                group: 'precipitation',
+                src: '/api/images/precipitation/PCusco.jpg',
+            },
+            {
+                group: 'temperature',
+                src: '/api/images/humidity/TCusco.jpg',
+            }
+        ],
         climate: [
             "Andean",
             "Rainy",
@@ -76,6 +104,20 @@ const data = [
     },
     {
         city: 'arequipa',
+        images: [
+            {
+                group: 'humidity',
+                src: '/api/images/humidity/HArequipa.jpg',
+            },
+            {
+                group: 'precipitation',
+                src: '/api/images/precipitation/PArequipa.jpg',
+            },
+            {
+                group: 'temperature',
+                src: '/api/images/humidity/TArequipa.jpg',
+            }
+        ],
         climate: [
             "Andean",
             "Dry",
@@ -114,6 +156,20 @@ const data = [
     },
     {
         city: 'iquitos',
+        images: [
+            {
+                group: 'humidity',
+                src: '/api/images/humidity/HIquitos.jpg',
+            },
+            {
+                group: 'precipitation',
+                src: '/api/images/precipitation/PIquitos.jpg',
+            },
+            {
+                group: 'temperature',
+                src: '/api/images/humidity/TIquitos.jpg',
+            }
+        ],
         climate: [
             "Amazonian",
             "Very rainy",
@@ -152,6 +208,20 @@ const data = [
     },
     {
         city: 'chiclayo',
+        images: [
+            {
+                group: 'humidity',
+                src: '/api/images/humidity/HChiclayo.jpg',
+            },
+            {
+                group: 'precipitation',
+                src: '/api/images/precipitation/PChiclayo.jpg',
+            },
+            {
+                group: 'temperature',
+                src: '/api/images/humidity/TChiclayo.jpg',
+            }
+        ],
         climate: [
             "Coastal",
             "Warm",

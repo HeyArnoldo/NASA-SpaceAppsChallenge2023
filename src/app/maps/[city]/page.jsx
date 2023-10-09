@@ -7,6 +7,8 @@ import Stats from '@/components/Stats'
 import SelectCity from '@/components/SelectCity'
 import data from '@/utils/data'
 import { useRouter } from 'next/navigation'
+import Image from 'next/image'
+
 export default function page({params}) {
     const router = useRouter()
     const handleBack = () => {
@@ -20,8 +22,6 @@ export default function page({params}) {
         <SelectCity ciudad={city}/>
     </div>
     <placeholder className='w-full h-96'>
-
-
     </placeholder>
     <div className='flex flex-col justify-center items-center bg-white rounded-t-3xl p-3 w-full'>
         <IoIosReorder className='text-3xl' />
