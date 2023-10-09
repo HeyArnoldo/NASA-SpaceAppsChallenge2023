@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.backgroundimage{
+    background-image: url('../assets/images/earth.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
